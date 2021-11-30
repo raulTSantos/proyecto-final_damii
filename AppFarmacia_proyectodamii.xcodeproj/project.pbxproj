@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB69578801624915E8E90DC0 /* Pods_AppFarmacia_proyectodamii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B3F1381D3AFE101B722A6 /* Pods_AppFarmacia_proyectodamii.framework */; };
 		E6408EF6275685C5008CDE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6408EF5275685C5008CDE01 /* AppDelegate.swift */; };
-		E6408EF8275685C5008CDE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6408EF7275685C5008CDE01 /* ViewController.swift */; };
+		E6408EF8275685C5008CDE01 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6408EF7275685C5008CDE01 /* AuthViewController.swift */; };
 		E6408EFB275685C5008CDE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6408EF9275685C5008CDE01 /* Main.storyboard */; };
 		E6408EFD275685C7008CDE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6408EFC275685C7008CDE01 /* Assets.xcassets */; };
 		E6408F00275685C7008CDE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6408EFE275685C7008CDE01 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		073B3F1381D3AFE101B722A6 /* Pods_AppFarmacia_proyectodamii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFarmacia_proyectodamii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939097511F0F2C41C8D55A6F /* Pods-AppFarmacia_proyectodamii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFarmacia_proyectodamii.debug.xcconfig"; path = "Target Support Files/Pods-AppFarmacia_proyectodamii/Pods-AppFarmacia_proyectodamii.debug.xcconfig"; sourceTree = "<group>"; };
 		E6408EF2275685C5008CDE01 /* AppFarmacia_proyectodamii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFarmacia_proyectodamii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6408EF5275685C5008CDE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6408EF7275685C5008CDE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6408EF7275685C5008CDE01 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		E6408EFA275685C5008CDE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6408EFC275685C7008CDE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6408EFF275685C7008CDE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6408F01275685C7008CDE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD91F8AA23E746E4D5ECAF5 /* Pods-AppFarmacia_proyectodamii.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFarmacia_proyectodamii.release.xcconfig"; path = "Target Support Files/Pods-AppFarmacia_proyectodamii/Pods-AppFarmacia_proyectodamii.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB69578801624915E8E90DC0 /* Pods_AppFarmacia_proyectodamii.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138D18404CC4DF5FFFDD53D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				073B3F1381D3AFE101B722A6 /* Pods_AppFarmacia_proyectodamii.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72633275286951A534885699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939097511F0F2C41C8D55A6F /* Pods-AppFarmacia_proyectodamii.debug.xcconfig */,
+				FAD91F8AA23E746E4D5ECAF5 /* Pods-AppFarmacia_proyectodamii.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E6408EE9275685C5008CDE01 = {
 			isa = PBXGroup;
 			children = (
 				E6408EF4275685C5008CDE01 /* AppFarmacia_proyectodamii */,
 				E6408EF3275685C5008CDE01 /* Products */,
+				72633275286951A534885699 /* Pods */,
+				138D18404CC4DF5FFFDD53D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E6408EF5275685C5008CDE01 /* AppDelegate.swift */,
-				E6408EF7275685C5008CDE01 /* ViewController.swift */,
+				E6408EF7275685C5008CDE01 /* AuthViewController.swift */,
 				E6408EF9275685C5008CDE01 /* Main.storyboard */,
 				E6408EFC275685C7008CDE01 /* Assets.xcassets */,
 				E6408EFE275685C7008CDE01 /* LaunchScreen.storyboard */,
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6408F04275685C7008CDE01 /* Build configuration list for PBXNativeTarget "AppFarmacia_proyectodamii" */;
 			buildPhases = (
+				E3241A92FE3904E5D77EDD36 /* [CP] Check Pods Manifest.lock */,
 				E6408EEE275685C5008CDE01 /* Sources */,
 				E6408EEF275685C5008CDE01 /* Frameworks */,
 				E6408EF0275685C5008CDE01 /* Resources */,
@@ -130,12 +155,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3241A92FE3904E5D77EDD36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppFarmacia_proyectodamii-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6408EEE275685C5008CDE01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6408EF8275685C5008CDE01 /* ViewController.swift in Sources */,
+				E6408EF8275685C5008CDE01 /* AuthViewController.swift in Sources */,
 				E6408EF6275685C5008CDE01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +330,7 @@
 		};
 		E6408F05275685C7008CDE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939097511F0F2C41C8D55A6F /* Pods-AppFarmacia_proyectodamii.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +348,7 @@
 		};
 		E6408F06275685C7008CDE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD91F8AA23E746E4D5ECAF5 /* Pods-AppFarmacia_proyectodamii.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
