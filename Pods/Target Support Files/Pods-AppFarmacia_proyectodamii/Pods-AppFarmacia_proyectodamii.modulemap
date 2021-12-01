@@ -1,0 +1,6 @@
+framework module Pods_AppFarmacia_proyectodamii {
+  umbrella header "Pods-AppFarmacia_proyectodamii-umbrella.h"
+
+  export *
+  module * { export * }
+}
